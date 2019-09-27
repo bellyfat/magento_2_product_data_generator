@@ -8,6 +8,7 @@ import constants
 def getAuthToken():
     response = http_request.post(
         constants.AUTH_URL, json=constants.CREDENTIALS)
+    print(response.text)
     return response.text.replace('"', '')
 
 
@@ -21,4 +22,7 @@ def postData(url, json_data, auth_token):
 
     response = http_request.post(
         url, data=json_data, headers=header)
+    # print response to console for logging
+    print(response.text)
+
     return response.text
