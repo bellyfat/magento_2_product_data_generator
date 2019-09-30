@@ -1,4 +1,4 @@
-BASE_URL = 'http://localhost/mg2/index.php/rest'
+BASE_URL = 'YOUR MAGENTO BASE URL'
 AUTH_URL = BASE_URL + '/V1/integration/admin/token'
 CREATE_PRODUCT_URL = BASE_URL + '/V1/products'
 CREATE_ATTRIBUTESET_URL = BASE_URL + '/V1/products/attribute-sets'
@@ -6,4 +6,4 @@ CREATE_ATTRIBUTE_URL = BASE_URL + '/V1/products/attributes'
 CREATE_ATTRIBUTE_GROUP_URL = BASE_URL + '/V1/products/attribute-sets/groups'
 CREATE_CATEGORY_URL = BASE_URL + '/V1/categories'
 MAP_ATTRIBUTE_TO_ATTR_SET = BASE_URL + '/V1/products/attribute-sets/attributes'
-CREDENTIALS = {'username': 'admin', 'password': 'click123'}
+CREDENTIALS = {'username': 'YOUR USERNAME', 'password': 'YOUR PASSWORD'}
